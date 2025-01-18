@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    outline: none;
+}
+
+body{
+    background-color: #EDEDED;
+    width: 1200px;
+    margin: 0 auto; 
+    padding-top: 12px;
+}
+
+.logo{
+    font-size: 48px;
+}
+
+#contact{
+    height: 48px;
+    font-size: 20px;
+    background-color: rgb(31, 29, 29);
+    color:#EDEDED;
+    padding: 8px 16px;
+    border-radius: 12px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.info{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1{
+    margin-bottom: 12px;
+}
+
+h2{
+    font-weight: 500;
+}
+
+.converter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+}
+
+input{
+    width: 200px;
+    height: 48px;
+    padding: 8px 16px;
+    border-radius: 12px;
+    resize: none;
+    margin-right: 4px;
+    font-size: 18px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+  }
+
+input[id="from-currency"]:focus{
+    border: 1px solid rgb(129, 123, 123);
+}
+
+.change-currency{
+    border-radius: 12px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    margin: 0 20px;
+}
+.icon {
+    color: #1f1d1d;
+}
+
+.select-box{
+    display: flex;
+    align-items: center;
+    padding: 12px 8px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+}
+
+.flag{
+    height: 24px;
+    margin-right: 4px;
+}

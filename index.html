@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <p class="logo">FlexCurrency</p>
+        <button id="contact">Связаться с нами</button>
+    </header>
+
+    <main>
+
+        <div class="info">
+            <h1>FlexCurrency — обмен валют легко и быстро</h1>
+            <h2>Конвертируйте любую валюту в несколько кликов с актуальными курсами</h2>
+        </div>
+
+        <div class="converter">
+
+            <div class="from-currency wrapper">
+                <input type="number" id="from-currency" inputmode="numeric" />
+                <div class="select-box">
+                    <img src="" alt="flag" class="flag" id="from-flag">
+                    <select id="from-currency-select"></select>
+                </div>
+            </div>
+
+            <button class="change-currency">
+                <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#1f1d1d" class="icon"><path d="M280-120 80-320l200-200 57 56-104 104h607v80H233l104 104-57 56Zm400-320-57-56 104-104H120v-80h607L623-784l57-56 200 200-200 200Z"/></svg>
+            </button>
+
+            <div class="to-currency wrapper">
+                <input id="to-currency" readonly/>
+                <div class="select-box">
+                    <img src="" alt="flag" class="flag" id="to-flag">
+                    <select id="to-currency-select"></select>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="currency-codes.js"></script>
+    <script src="api-key.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
