@@ -20,7 +20,7 @@ FlexCurrency — это простой и удобный конвертер ва
 
 ## Источник данных
 
-Курсы валют берутся с API ExchangeRate-API.
+Курсы валют берутся с [API ExchangeRate-API](https://www.exchangerate-api.com/).
 
 ## Дизайн вдохновлен
 
